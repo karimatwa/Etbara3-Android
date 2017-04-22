@@ -1,0 +1,61 @@
+- Verification
+email
+code
+
+- Profile
+profile_id (PK) (AI)
+city_id
+name
+email
+password
+phone
+address
+admin
+
+- City
+city_id (PK)
+name
+
+- RequestMoney
+request_id (PK)
+org_id
+cause_id
+profile_id
+amount
+date
+
+- RequestTruck
+request_id (PK)
+org_id
+profile_id
+description
+date
+
+- Volunteer
+volunteer_id (PK)
+event_id
+org_id
+profile_id
+
+- Event
+event_id (PK)
+org_id
+name
+date
+description
+
+- Organization 
+org_id (PK)
+name
+description
+phone
+photo
+
+- Cause
+cause_id (PK)
+org_id
+name
+
+- Statistics
+statistics_id (PK)
+data
