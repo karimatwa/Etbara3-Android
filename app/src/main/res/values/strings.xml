@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Etbara3</string>
+    <string name="app_description"> Description: \nThis program allows you to reach caritative organizations in order to request a representative to collect your money donations, items or check the available events that you can volunteer in.</string>
+    <string-array name="organization_array">
+        <item>Resala</item>
+        <item>Hospital 57357</item>
+        <item>Masr ElKheer</item>
+        <item>ElOrman</item>
+    </string-array>
+</resources>

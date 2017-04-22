@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.karim.etbara3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/etbara3"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SignIn" android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity android:name=".About"
+            android:screenOrientation="portrait"
+            android:theme = "@style/Theme.AppCompat.Dialog"
+            android:label="About" />
+        <activity
+            android:name=".SignUp"
+            android:screenOrientation="portrait"
+            android:label="Sign Up"
+            />
+        <activity
+            android:name=".Profile"
+            android:screenOrientation="portrait"
+            android:label="Profile"/>
+        <activity
+            android:name=".Verify"
+            android:screenOrientation="portrait"
+            android:label="Verification"/>
+        <activity
+            android:name=".Money"
+            android:screenOrientation="portrait"
+            android:label="Donate Money"/>
+        <activity
+            android:name=".Truck"
+            android:screenOrientation="portrait"
+            android:label="Request Truck"/>
+        <activity
+            android:name=".Causes"
+            android:screenOrientation="portrait"
+            android:label="Causes"/>
+        <activity
+            android:name=".Volunteer"
+            android:screenOrientation="portrait"
+            android:label="Volunteer"/>
+        <activity
+            android:name=".Whoarewe"
+            android:screenOrientation="portrait"
+            android:label=" Who Are We"/>
+        <activity
+            android:name=".RequestsList"
+            android:screenOrientation="portrait"
+            android:label="Request Types"/>
+        <activity
+            android:name=".MyRequestMoney"
+            android:screenOrientation="portrait"
+            android:label="My Money Requests"/>
+        <activity
+            android:name=".MyRequestTruck"
+            android:screenOrientation="portrait"
+            android:label="My Truck Requests"/>
+        <activity
+            android:name=".MyRequestEvent"
+            android:screenOrientation="portrait"
+            android:label="My Events"/>
+        <activity
+            android:name=".Admin"
+            android:screenOrientation="portrait"
+            android:label="Admin"/>
+        <activity
+            android:name=".EditStat"
+            android:screenOrientation="portrait"
+            android:label="Edit Statistics"/>
+        <activity
+            android:name=".AddEvent"
+            android:screenOrientation="portrait"
+            android:label="Add Event"/>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

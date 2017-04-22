@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="55sp"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="false"
+        android:layout_marginTop="40dp"
+        android:textColor="#20BF9F"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/Welcome2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donate to charity with just one click away!"
+        android:textSize="20sp"
+        android:layout_below="@+id/Welcome"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/Email_SignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:layout_below="@+id/Welcome2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:textColor="#030303"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp" />
+
+    <EditText
+        android:id="@+id/Password_SignIn"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/Email_SignIn"
+        android:layout_marginRight="5dp"
+        android:textColor="#030303"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:text="LOGIN"
+        android:textAllCaps="false"
+        android:id="@+id/signin"
+        android:onClick="signin"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="-10dp"
+        android:layout_marginBottom="-10dp"
+        android:background="#20BF9F"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentEnd="true" />
+    <TextView
+        android:text="First time user? Sign up now!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignLeft="@+id/Password_SignIn"
+        android:layout_alignStart="@+id/Password_SignIn"
+        android:layout_marginTop="10dp"
+        android:textColor="#010101"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/signup"
+        android:text="Sign Up"
+        android:textAllCaps="false"
+        android:onClick="signup"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:background="#20BF9F"
+        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:checked="true"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/Password_SignIn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

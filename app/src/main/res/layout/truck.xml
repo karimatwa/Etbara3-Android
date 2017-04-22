@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <Button
+            android:id="@+id/request"
+            android:text="REQUEST"
+            android:textAllCaps="false"
+            android:onClick="request"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="#20BF9F"
+            android:textSize="40sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Examples: 1 Bed (2 x 1.6)m \n                   1 Bag 20kg of clothes"
+        android:gravity="top|left"
+        android:layout_below="@+id/textView13"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_above="@+id/button5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Choose Date  "
+        android:id="@+id/button5"
+        android:textStyle="bold"
+        android:background="#20BF9F"
+        android:textColor="#ffffff"
+        android:onClick="date"
+        android:layout_above="@+id/request"
+        android:layout_alignRight="@+id/editText"
+        android:layout_alignEnd="@+id/editText"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView11"
+        android:layout_above="@+id/request"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/textView13"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Items to be collected:"
+        android:textStyle="bold"
+        android:layout_margin="10dp" />
+</RelativeLayout>
