@@ -4,3 +4,5 @@ Donate money or items through the application to different Non-profit organizati
 
 
 Presentation powepoint [file](https://github.com/karimatwa/Etbara3-Android/blob/master/Etbara3%20Pres.pptx?raw=true).
+
+![Screenshot](photo (1).png)
