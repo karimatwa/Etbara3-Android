@@ -5,6 +5,10 @@ Donate money or items through the application to different Non-profit organizati
 
 Presentation powepoint [file](https://github.com/karimatwa/Etbara3-Android/blob/master/Etbara3%20Pres.pptx?raw=true).
 
+<center>
+    Screens
+</centre>
+
 <div align="centre">
     <img src="photo%20(1).png" width="200"</img> 
     <img src="photo%20(2).png" width="200"</img> 
